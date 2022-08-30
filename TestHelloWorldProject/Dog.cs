@@ -19,7 +19,7 @@ namespace TestHelloWorldProject
 
         public void dogdetails()
         {
-            Console.WriteLine("Dogname={0} DogBreed={1} DogColor={2}", name, breed, color);
+            Console.WriteLine("Dogname = {0} DogBreed = {1} DogColor = {2}", name, breed, color);
         }
     }
 }

@@ -29,9 +29,13 @@ namespace TestHelloWorldProject
             //FibonacciSeries.FindSeries(6);
             //Console.WriteLine("Prime Number: ");
             //PrimeNumber.prime(5);
-            Console.WriteLine("Enter Number to make Reverse: ");
+            //Console.WriteLine("Enter Number to make Reverse: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //ReverseNumber.Reverse(number);
+
+            Console.WriteLine("Enter Number to check Palindrome: ");
             int number = Convert.ToInt32(Console.ReadLine());
-            ReverseNumber.Reverse(number);
+            Palindrome.PalindromeNumber(number);
             Console.ReadLine();
 
         }

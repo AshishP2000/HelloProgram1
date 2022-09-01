@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Basic Programs\FibonacciSeries.cs" />
+    <Compile Include="Basic Programs\PrimeNumber.cs" />
+    <Compile Include="Basic Programs\ReverseNumber.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

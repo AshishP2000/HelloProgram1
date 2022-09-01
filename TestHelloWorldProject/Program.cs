@@ -23,10 +23,15 @@ namespace TestHelloWorldProject
             dog1.walk();
 
 
-            Console.WriteLine("Fibonacci Series: ");
-            Console.WriteLine("Enter any Number: ");
-            int n = Convert.ToInt32(Console.ReadLine());
-            FibonacciSeries.FindSeries(6);
+            //Console.WriteLine("Fibonacci Series: ");
+            //Console.WriteLine("Enter any Number: ");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //FibonacciSeries.FindSeries(6);
+            //Console.WriteLine("Prime Number: ");
+            //PrimeNumber.prime(5);
+            Console.WriteLine("Enter Number to make Reverse: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            ReverseNumber.Reverse(number);
             Console.ReadLine();
 
         }

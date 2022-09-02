@@ -37,9 +37,10 @@ namespace TestHelloWorldProject
             //int number = Convert.ToInt32(Console.ReadLine());
             //Palindrome.PalindromeNumber(number);
 
-            Console.WriteLine("Enter Number to see Sum of Digits: ");
-            int number = Convert.ToInt32(Console.ReadLine());
-            SumOfDigits.findsumofdigit(number);
+            //Console.WriteLine("Enter Number to see Sum of Digits: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //SumOfDigits.findsumofdigit(number);
+            ReverseWord.ReadInput();
             Console.ReadLine();
 
         }

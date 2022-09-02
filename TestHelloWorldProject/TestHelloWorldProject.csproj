@@ -47,6 +47,7 @@
     <Compile Include="Basic Programs\Palindrome.cs" />
     <Compile Include="Basic Programs\PrimeNumber.cs" />
     <Compile Include="Basic Programs\ReverseNumber.cs" />
+    <Compile Include="Basic Programs\SumOfDigits.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

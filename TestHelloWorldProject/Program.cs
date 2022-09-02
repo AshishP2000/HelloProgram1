@@ -33,9 +33,13 @@ namespace TestHelloWorldProject
             //int number = Convert.ToInt32(Console.ReadLine());
             //ReverseNumber.Reverse(number);
 
-            Console.WriteLine("Enter Number to check Palindrome: ");
+            //Console.WriteLine("Enter Number to check Palindrome: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //Palindrome.PalindromeNumber(number);
+
+            Console.WriteLine("Enter Number to see Sum of Digits: ");
             int number = Convert.ToInt32(Console.ReadLine());
-            Palindrome.PalindromeNumber(number);
+            SumOfDigits.findsumofdigit(number);
             Console.ReadLine();
 
         }

@@ -10,22 +10,20 @@ namespace TestHelloWorldProject.Basic_Programs
     {
         public static void prime(int m)
         {
-            if (m == 1 && m == 2 && m == 3)
+            int i,count=0;
+            for (i = 1; i <= m; i++)
             {
-                Console.WriteLine(m + "is prime");
+                if (m % i == 0)
+                {
+                    count++;
+                }
+            }
+            if (count == 2 || m==1)
+            {
+                Console.WriteLine("It is Prime Number!...");
             }
             else {
-                for (int i = 4; i <= m; i++)
-                {
-                    if (m % i == 0)
-                    {
-                        Console.WriteLine(m + "is not prime");
-                    }
-                    else
-                    {
-                        Console.WriteLine(m + "is prime");
-                    }
-                }
+                Console.WriteLine("It is Not Prime Number!...");
             }
             
         }

@@ -50,6 +50,16 @@
     <Compile Include="Basic Programs\ReverseWord.cs" />
     <Compile Include="Basic Programs\SumOfDigits.cs" />
     <Compile Include="Dog.cs" />
+    <Compile Include="OOPsConcepts\Inheritance\Car.cs" />
+    <Compile Include="OOPsConcepts\Inheritance\Vehicle.cs" />
+    <Compile Include="OOPsConcepts\Polymorphism\MethodOverloading\Addition.cs" />
+    <Compile Include="OOPsConcepts\Polymorphism\MethodOverriding\Animal.cs" />
+    <Compile Include="OOPsConcepts\Polymorphism\MethodOverriding\Cat.cs" />
+    <Compile Include="Practice\ArithmeticOperations.cs" />
+    <Compile Include="Practice\ArmstrongNumber.cs" />
+    <Compile Include="Practice\EvenOdd.cs" />
+    <Compile Include="Practice\MaxMin.cs" />
+    <Compile Include="Practice\SwapNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

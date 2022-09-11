@@ -50,6 +50,9 @@
     <Compile Include="Basic Programs\ReverseWord.cs" />
     <Compile Include="Basic Programs\SumOfDigits.cs" />
     <Compile Include="Dog.cs" />
+    <Compile Include="OOPsConcepts\Abstraction\Shape.cs" />
+    <Compile Include="OOPsConcepts\Abstraction\Square.cs" />
+    <Compile Include="OOPsConcepts\Encapsulation\Student.cs" />
     <Compile Include="OOPsConcepts\Inheritance\Car.cs" />
     <Compile Include="OOPsConcepts\Inheritance\Vehicle.cs" />
     <Compile Include="OOPsConcepts\Polymorphism\MethodOverloading\Addition.cs" />

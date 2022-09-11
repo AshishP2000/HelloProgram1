@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TestHelloWorldProject.Basic_Programs;
+using TestHelloWorldProject.OOPsConcepts.Abstraction;
+using TestHelloWorldProject.OOPsConcepts.Encapsulation;
 using TestHelloWorldProject.OOPsConcepts.Inheritance;
 using TestHelloWorldProject.OOPsConcepts.Polymorphism.MethodOverloading;
 using TestHelloWorldProject.OOPsConcepts.Polymorphism.MethodOverriding;
@@ -112,7 +114,7 @@ namespace TestHelloWorldProject
                     Console.WriteLine("Enter Given number");
                     break;
             }*/
-            Console.WriteLine("1.Inheritance\n2.Polymorphism\n3.Method Overriding");
+            Console.WriteLine("1.Inheritance\n2.Polymorphism\n3.Method Overriding\n4.Abstraction\n5.Encapsulation");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
@@ -133,6 +135,29 @@ namespace TestHelloWorldProject
                     Cat cat = new Cat();
                     cat.AnimalDetails();
                     cat.AnimalSound();
+                    break;
+                case 4:
+                    Square square = new Square();
+                    Console.WriteLine("Enter Side of the Sqaure");
+                    double side = Convert.ToInt32(Console.ReadLine());
+                    square.AreaDetails();
+                    square.Area(side);
+                    break;
+                case 5:
+                    Student student = new Student();
+                    //student.amount = 5000;
+                    //Console.WriteLine("Before Credit: " + student.amount);
+                    Console.WriteLine("Enter Amount to Credit:");
+                    student.money = Convert.ToDouble(Console.ReadLine());
+                    student.name = "Ashish";
+                    Console.WriteLine("Account Holder Name: "+student.name);
+                    student.Credit(student.money);
+                    //Console.WriteLine("After Credit: " + student.amount);
+                    //student.Credit(student.amount);
+                    
+                    break;
+                default:
+                    Console.WriteLine("Enter Valid Number");
                     break;
 
             }
